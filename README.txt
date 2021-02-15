@@ -13,14 +13,14 @@ Build:
   make clean all
   
 2) Windows:
-  Open the .sln fileon Visusl Studio and build. 
+  Open the .sln file on Visusl Studio and build. 
   
  
 Run:
 Usage: firFilter.exe
 
         [-zeroCopy (0 | 1)] //0 (default) - Device buffer, 1 - zero copy buffer
-        [-numElements <int value> (default 245760)]
+        [-numElements <int value> (default 2560)]
         [-f1 <int value> (filter1 TAP size - default 335)]
         [-f2 <int value> (filter2 TAP size - default 29)]
         [-iter <int value> (Number of times the piepeline shold be run)]
